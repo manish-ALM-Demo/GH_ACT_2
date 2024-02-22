@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
  
       - name: Print Greeting
-        run: echo "${{ vars.USER_NAME }} Welcome to GitHub Actions."
+        run: echo "${{ vars.Add }} Welcome to GitHub Actions."
  
       - name: Print Working Directory
         run: |
