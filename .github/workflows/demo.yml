@@ -22,6 +22,6 @@ jobs:
           pwd
           ls -l
  
-      # - name: Run Custom Script
-      #   run: |
-      #     bash /home/runner/work/gitaction_poc1_2/
+      - name: Adding Script to my workflow
+        run: |
+          bash /home/runner/work/GH_ACT_2/GH_ACT_2/script.sh
